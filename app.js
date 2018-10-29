@@ -52,5 +52,5 @@ app.all('*', (req, res) => {
 
 //Starting the server.
 app.listen(port, () => {
-    console.log("Sever running in port : " + port);
+    console.log("ICP10");
 });
