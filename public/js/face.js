@@ -12,7 +12,7 @@ app.controller("faceCtrl", function ($scope, $http) {
         $scope.desc="";
         $http({
             method: 'GET',
-            url: 'https://aqueous-cliffs-11420.herokuapp.com/getName?url=' + $scope.url
+            url: 'https://peaceful-retreat-12407.herokuapp.com/getName?url=' + $scope.url
         }).then(function successCallback(response) {
             console.log(response.data);
             $scope.imgurl = $scope.url;
