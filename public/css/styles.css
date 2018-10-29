@@ -1,0 +1,47 @@
+body{
+     background-image: url("https://cdn-images-1.medium.com/max/2000/1*Lnu3_GAUoScFCqT87VRQGQ.jpeg");
+            background-size: cover;
+    color: #fff;
+}
+.image-viewer{
+   text-align: center;
+}
+img{
+    margin-top:10px;
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+
+h3:first-letter {
+    text-transform:capitalize;
+}
+
+.btn-color{
+    color: #fff;
+    background-color: #007bff;
+    color: #fff;
+}
+.image-viewer{
+   text-align: center;
+}
+img{
+    margin-top:10px;
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+
+h3:first-letter {
+    text-transform:capitalize;
+}
+
+.btn-color{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    cursor: pointer;
+}
+.margin-top-30px{
+    margin-top: 30px;
+}
